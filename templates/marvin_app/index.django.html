@@ -1,0 +1,16 @@
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title>MyAPP</title>
+        <link rel="stylesheet" type="text/css" href="{% static "extjs4/resources/css/ext-all.css" %}">
+        {% if EXTJS4_DEBUG %}
+            <script type="text/javascript" src="{% static "extjs4/ext-debug.js" %}"></script>
+            <script type="text/javascript" src="{% static "minimal_extjs4_app/app-all.js" %}"></script>
+        {% else %}
+            <script type="text/javascript" src="{% static "extjs4/ext.js" %}"></script>
+            <script type="text/javascript" src="{% static "minimal_extjs4_app/app-all.js" %}"></script>
+        {% endif %}
+    </head>
+    <body></body>
+</html>
