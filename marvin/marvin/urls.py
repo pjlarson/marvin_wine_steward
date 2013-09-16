@@ -6,7 +6,6 @@ admin.autodiscover()
 
 from extjs4.views import Extjs4AppView
 
-from marvin import views
 
 urlpatterns = patterns('',
     # url(r'^$', views.IndexView.as_view()),
