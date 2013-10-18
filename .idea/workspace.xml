@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d139da-03c4-4143-a123-212612e98683" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="marvin_proj.iws" />
@@ -15,7 +13,7 @@
     <file path="/index.html" changelist="46d139da-03c4-4143-a123-212612e98683" time="1378612605681" ignored="false" />
     <file path="/index.django.html" changelist="46d139da-03c4-4143-a123-212612e98683" time="1378612642650" ignored="false" />
     <file path="/a.dummy" changelist="46d139da-03c4-4143-a123-212612e98683" time="1378617111918" ignored="false" />
-    <file path="/Dummy.txt" changelist="46d139da-03c4-4143-a123-212612e98683" time="1382068847717" ignored="false" />
+    <file path="/Dummy.txt" changelist="46d139da-03c4-4143-a123-212612e98683" time="1382068959625" ignored="false" />
     <file path="/.gitignore" changelist="46d139da-03c4-4143-a123-212612e98683" time="1382068840517" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -412,7 +410,11 @@
       <created>1382068850282</created>
       <updated>1382068850282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tweaking ignores">
+      <created>1382068960784</created>
+      <updated>1382068960784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
