@@ -21,7 +21,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/peter/marvin.db',                      # Or path to database file if using sqlite3.
+        'NAME': '/home/peter/data/marvin.db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -95,6 +95,7 @@ TEMPLATE_LOADERS = (
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
+    'django.core.context_processors.request',
     "extjs4.context_processors.extjs4",
 )
 
@@ -117,6 +118,10 @@ WSGI_APPLICATION = 'marvin.wsgi.application'
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '../', 'templates').replace('\\','/'),)
 
 INSTALLED_APPS = (
+    'admin_tools',
+    'admin_tools.theming',
+    'admin_tools.menu',
+    'admin_tools.dashboard',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -127,10 +132,11 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
+    'south',
     'tastypie',
-    'extjs4',
     'gunicorn',
     'marvin',
+    'products',
 )
 
 # A sample logging configuration. The only tangible logging
