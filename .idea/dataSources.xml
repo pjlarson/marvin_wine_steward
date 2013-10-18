@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1081487109">
-    <data-source source="LOCAL" name="Django default" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="6ae52a2a-eb33-4e1b-9f92-242314c0c712">
+  <component name="DataSourceManagerImpl" format="xml" hash="1472918194">
+    <data-source source="LOCAL" name="Django default" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="1fc8b489-51d6-472a-9f08-637a8edda147">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$USER_HOME$/marvin.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/data/marvin.db</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.PyCharm20/config/jdbc-drivers/xerial-sqlite-license.txt</url>
